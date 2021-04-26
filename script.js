@@ -8,7 +8,7 @@ const bodyParser = require('body-parser')
 const rndm = require('random-simple')
 app.use(bodyParser.urlencoded({ extended: true }))
 
-app.listen(3001 || process.env.PORT);
+app.listen(process.env.PORT);
 
 let users = []
 let urls = []
